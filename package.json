@@ -1,0 +1,9 @@
+{
+  "dependencies": {
+    "@ledgerhq/hw-app-xrp": "^4.35.0",
+    "@ledgerhq/hw-transport-node-hid": "^4.35.0",
+    "babel-polyfill": "^6.26.0",
+    "ripple-binary-codec": "^0.2.0",
+    "ripple-lib": "^1.1.2"
+  }
+}
