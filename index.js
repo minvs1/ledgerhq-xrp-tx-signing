@@ -43,9 +43,9 @@ const signTransaction = async settings => {
 
 		console.log(`Signature: ${signature}`)
 
-		const result = await api.submit(signature)
-
-		console.log('Tx submitted', result)
+		// const result = await api.submit(signature)
+		// 
+		// console.log('Tx submitted', result)
 	} catch (error) {
 		console.error('Error signing transaction', error)
 	}
